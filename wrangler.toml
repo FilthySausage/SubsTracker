@@ -4,16 +4,16 @@ compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
 
 [env.production]
-name = "subscription-manager"
+name = "substracker"
 
 [env.staging]
-name = "subscription-manager-staging"
+name = "substracker-staging"
 
 # KV 命名空间配置
 [[kv_namespaces]]
 binding = "SUBSCRIPTIONS_KV"
-preview_id = "your-preview-kv-namespace-id"
-id = "your-production-kv-namespace-id"
+preview_id = "043feaa2eb8e4d02aa84ba1ee5f366bc"
+id = "043feaa2eb8e4d02aa84ba1ee5f366bc"
 
 # 定时任务配置 - 每天早上8点检查
 [triggers]
